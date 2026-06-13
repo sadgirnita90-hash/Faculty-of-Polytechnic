@@ -24,3 +24,12 @@ def sum_to_n(n):
 print(sum_to_n(5))   
 print(sum_to_n(1))  
 print(sum_to_n(10))  
+
+
+#problem 3
+#time table
+def times_table(n):
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n * i}")
+
+times_table(2)
