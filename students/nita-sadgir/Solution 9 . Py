@@ -16,3 +16,18 @@ def main():
 
 if __name__=="__main__": 
     main()
+
+#program 12
+# rectangle 
+def rectangle(length, breadth):
+    area = length * breadth
+    perimeter = 2 * (length + breadth)
+    return area, perimeter
+
+a, p = rectangle(3, 4)
+print(a)   
+print(p)   
+
+a, p = rectangle(10, 2) 
+print(a)   
+print(p)   
