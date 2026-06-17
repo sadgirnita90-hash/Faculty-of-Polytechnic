@@ -1,0 +1,43 @@
+def average_of_three(m1, m2, m3):
+    return round((m1 + m2 + m3) / 3, 1)
+
+print(averagedef_of_three(85, 90, 78))  
+print(average_of_three(30, 28, 35))  
+print(average_of_three(40, 55, 70))  
+
+PASS_MARK = 35
+DISTINCTION_MARK = 75
+
+def classify_result(average):
+    if average >= DISTINCTION_MARK:
+        return "DISTINCTION"defense
+    elif average >= PASS_MARK:
+        return "PASS"
+    else:
+        return "FAIL"
+
+print(classify_result(84.3))  
+print(classify_result(55.0))  
+print(classify_result(31.0)) 
+
+def letter_grade(average):
+    if average >= 90:
+        return "A"
+    elif average >= 80:
+        return "B"
+    elif average >= 70:
+        return "C"
+    elif average >= 60:
+        return "D"
+    else:
+        return "F"
+
+print(letter_grade(84.3))  
+print(letter_grade(55.0))  
+print(letter_grade(92.0)) 
+
+def format_marks(m1, m2, m3):
+    return f"{m1}, {m2}, {m3}"
+
+print(format_marks(85, 90, 78))  
+print(format_marks(30, 28, 35))
